@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/AndonApp/bin/Debug
+/AndonApp/obj
+/AndonAppTests/bin/Debug
+/AndonAppTests/obj
+/packages
+/AndonApp.csproj.user
