@@ -9,14 +9,24 @@ namespace AndonApp.Exceptions
     /// </summary>
     public class AndonAppException : Exception
     {
+
+        /// <summary>
+        /// Generic catch-all exception when a request to Andon fails.
+        /// </summary>
         public AndonAppException() : base()
         {
         }
 
+        /// <summary>
+        /// Generic catch-all exception when a request to Andon fails.
+        /// </summary>
         public AndonAppException(string message) : base(message)
         {
         }
 
+        /// <summary>
+        /// Generic catch-all exception when a request to Andon fails.
+        /// </summary>
         public AndonAppException(string message, Exception innerException) : base(message, innerException)
         {
         }

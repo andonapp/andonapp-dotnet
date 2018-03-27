@@ -74,7 +74,8 @@ andonClient.UpdateStationStatusAsync(new UpdateStationStatusRequest
     {
         LineName = "line 1",
         StationName = "station 1",
-        StatusColor = "GREEN"
+        StatusColor = "GREEN",
+		StatusNotes = "notes"
     });
 ```
 

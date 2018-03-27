@@ -10,14 +10,24 @@ namespace AndonApp.Exceptions
     /// </summary>
     public class AndonResourceNotFoundException : AndonAppException
     {
+
+        /// <summary>
+        /// Exception when a request to Andon fails because one of the inputs is invalid.
+        /// </summary>
         public AndonResourceNotFoundException() : base()
         {
         }
 
+        /// <summary>
+        /// Exception when a request to Andon fails because one of the inputs is invalid.
+        /// </summary>
         public AndonResourceNotFoundException(string message) : base(message)
         {
         }
 
+        /// <summary>
+        /// Exception when a request to Andon fails because one of the inputs is invalid.
+        /// </summary>
         public AndonResourceNotFoundException(string message, Exception innerException) : base(message, innerException)
         {
         }

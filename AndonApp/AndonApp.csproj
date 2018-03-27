@@ -20,6 +20,11 @@
     <NeutralLanguage>en</NeutralLanguage>
     <Description>Client for reporting data to Andon (https://www.andonapp.com/).</Description>
     <Product>AndonApp Client</Product>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.1\AndonApp.xml</DocumentationFile>
   </PropertyGroup>
 
   <ProjectExtensions>
