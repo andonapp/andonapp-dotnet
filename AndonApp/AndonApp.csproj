@@ -9,6 +9,17 @@
 
   <PropertyGroup>
     <RootNamespace>AndonApp</RootNamespace>
+    <Authors>AndonApp</Authors>
+    <Company>Bright Designs LLC</Company>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Copyright>Bright Designs LLC</Copyright>
+    <PackageProjectUrl>https://github.com/andonapp/andonapp-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/andonapp/andonapp-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>Client for reporting data to Andon (https://www.andonapp.com/).</Description>
+    <Product>AndonApp Client</Product>
   </PropertyGroup>
 
   <ProjectExtensions>
