@@ -22,8 +22,5 @@ namespace AndonApp.Exceptions
         {
         }
 
-        protected AndonInternalErrorException(SerializationInfo info, StreamingContext context) : base(info, context)
-        {
-        }
     }
 }
